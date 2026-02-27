@@ -11,3 +11,5 @@ print(y/x)
 # modulus operator
 print(5%2)
 print(6%2)
+#exponential operator
+print(4**2) 
