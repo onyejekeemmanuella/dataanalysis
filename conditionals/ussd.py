@@ -13,10 +13,16 @@ if code=="*312#":
             print("500mb purchases was successful")
         
     elif code=="2":
-        code=input("select\n 1) \n 2)monthly\n 3)weekly\n choose: ") 
-
-    elif code=="3":
-        print("you have selected weekly")
+        code=input("select\n 1)#1500  for 2GB \n 2)#2000 for 2.7GB\n 3)#3000 for 6.75GB\n choose: ")
+        if code=="1":
+            print("2GB purchase was successful")
+        elif code=="2":
+            print("2.7GB purchase was successful")
+        elif code=="3":
+            print("6.75GB purchase was successful")
+            
+    elif code== "3":
+        print("you have selected monthly")
     else :
         print("unavailable")
 elif code=="*323#":
