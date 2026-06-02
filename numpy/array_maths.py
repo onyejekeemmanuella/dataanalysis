@@ -1,0 +1,18 @@
+import numpy as np
+salaries = np.array([50000, 30000,25000,12000,43000,32000,70000,120000])
+highest_salary = salaries.max()
+# print(highest_salary)
+lowest_salary = salaries.min()
+# print(lowest_salary)
+total = salaries.sum()
+# print(total)
+average = salaries.mean()
+# print(average)
+
+median = np.median(salaries)
+# print(median)
+print(f"The highest salary is {highest_salary}")
+print(f"The lowest salary is {lowest_salary}")
+print(f"The total salary is {total}")
+print (f"The average salary is {average}")
+print(f"The median salary is {median}")
